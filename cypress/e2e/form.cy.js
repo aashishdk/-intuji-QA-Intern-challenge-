@@ -14,7 +14,7 @@ describe('Assesment QA Practice Form', () => {
 
     cy.get('#firstName').should('be.visible')
   })
-
+  // positive test cases
   it('submits form with DOB selected via calendar', () => {
     cy.get('#firstName').type('Aashish')
     cy.get('#lastName').type('Dhakal')
